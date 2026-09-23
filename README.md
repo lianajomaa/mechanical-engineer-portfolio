@@ -1,16 +1,61 @@
-# React + Vite
+# Mechanical Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A premium single-page portfolio built for a mechanical (MEP & BIM) engineer, delivered as a client project.
 
-Currently, two official plugins are available:
+**Live site:** https://waficportfolio.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+The client needed one page that presents engineering experience, MEP and BIM project work, and a direct way for recruiters and contractors to get in touch — fast to load on a phone, and credible enough to send to a hiring manager. Designed, built and deployed end to end.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Six responsive sections: intro, about, skills, projects, experience and contact
+- Animated section transitions built with Framer Motion
+- Six MEP drawing projects presented with detail views
+- Contact form routed directly to the client's inbox
+- Fully responsive down to small mobile widths
+- Deployed on Vercel with continuous deployment from `main`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech stack
+
+| Layer | Tools |
+| --- | --- |
+| Framework | React 18 |
+| Build | Vite |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Hosting | Vercel |
+
+## Performance
+
+Performance was a requirement, not an afterthought — the audience opens links on mobile, often on slow connections.
+
+| Metric | Result |
+| --- | --- |
+| Lighthouse Performance | 90+ |
+| Lighthouse SEO | 100 |
+| Lighthouse Accessibility | 100 |
+| Image payload | ~70% smaller after WebP conversion |
+
+Converting all project imagery to WebP and sizing each image for its display width was the single biggest contributor to the score.
+
+## Running locally
+
+```bash
+git clone https://github.com/lianajomaa/mechanical-engineer-portfolio.git
+cd mechanical-engineer-portfolio
+npm install
+npm run dev
+```
+
+The dev server runs on `http://localhost:5173`.
+
+```bash
+npm run build     # production build
+npm run preview   # preview the production build locally
+```
+
+## Contact
+
+Built by **Liana Zouher Jomaa** — [GitHub](https://github.com/lianajomaa) · lianajomaa95@gmail.com
