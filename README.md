@@ -1,12 +1,12 @@
 # Mechanical Engineer Portfolio
 
-A premium single-page portfolio built for a mechanical (MEP & BIM) engineer, delivered as a client project.
+A premium single-page portfolio built for a mechanical (MEP & BIM) engineer, delivered as a client project on a custom domain.
 
-**Live site:** https://waficportfolio.vercel.app
+**Live site:** https://www.waficabouhosh.com
 
 ## Overview
 
-The client needed one page that presents engineering experience, MEP and BIM project work, and a direct way for recruiters and contractors to get in touch — fast to load on a phone, and credible enough to send to a hiring manager. Designed, built and deployed end to end.
+The client needed one page that presents engineering experience, MEP and BIM project work, and a direct way for recruiters and contractors to get in touch — fast to load on a phone, and credible enough to send to a hiring manager. Designed, built, deployed and domain-configured end to end.
 
 ## Features
 
@@ -15,7 +15,8 @@ The client needed one page that presents engineering experience, MEP and BIM pro
 - Six MEP drawing projects presented with detail views
 - Contact form routed directly to the client's inbox
 - Fully responsive down to small mobile widths
-- Deployed on Vercel with continuous deployment from `main`
+- Custom domain on Vercel with automatic HTTPS and continuous deployment from `main`
+- Search-engine metadata configured for the client's specialism and location
 
 ## Tech stack
 
